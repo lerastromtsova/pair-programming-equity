@@ -2,12 +2,17 @@
 \IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
 \usepackage{cite}
+\usepackage{hyperref}
+
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
 \graphicspath{ {./images/} }
 \usepackage{textcomp}
 \usepackage{xcolor}
+\hypersetup{
+    linkcolor=black
+}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
@@ -337,7 +342,7 @@ The survey consists of two parts: prescreen and the survey itself. The prescreen
     \label{tab:table1}
 \end{table}
 
-The data preprocessing strategy for each question depends on the data type received as an answer to that question. Table \ref{tab:table1} displays the choice of a preprocessing strategy for each answer type. The data was preprocessed and later analyzed with the usage of Python programming language, Jupyter Notebook computing platform, Pandas data analysis library and manual effort. 
+The data preprocessing strategy for each question depends on the data type received as an answer to that question. Table \ref{tab:table1} displays the choice of a preprocessing strategy for each answer type. The data was preprocessed and later analyzed with the usage of Python programming language, Jupyter Notebook computing platform, Pandas data analysis library and manual effort. The source code for data preprocessing and analysis is available in a public \href{https://github.com/lerastromtsova/pair-programming-equity}{Github repository} \cite{Repository}.
 
 \subsection{Data analysis}
 \subsubsection{Hypothesis 1}
@@ -512,6 +517,7 @@ To be done.
 \bibitem{LewiShah} Lewis, C. M., \& Shah, N. (2015, August). How equity and inequity can emerge in pair programming. In Proceedings of the eleventh annual international conference on international computing education research (pp. 41-50).
 \bibitem{ShahLewi} Shah, N., Lewis, C., \& Caires, R. (2014). Analyzing equity in collaborative learning situations: A comparative case study in elementary computer science. Boulder, CO: International Society of the Learning Sciences.
 \bibitem{Likert} Likert, R. (1932). A Technique for the Measurement of Attitudes. Archives of Psychology, 140, 1–55.
+\bibitem{Repository} Stromtcova, V. (2022). Pair Programming Equity repository. GitHub. https://github.com/lerastromtsova/pair-programming-equity
 
 \end{thebibliography}
 \vspace{12pt}
